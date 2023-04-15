@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Collections;
 
 namespace DataStructures.Collections.Dictionary;
 
