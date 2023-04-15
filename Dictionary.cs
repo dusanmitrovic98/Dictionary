@@ -7,6 +7,8 @@ namespace DataStructures.Collections.Dictionary;
 
 public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>
 {
+    private Dictionary<TKey, TValue> _dictionary;
+
     public TValue this[TKey key] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
     public ICollection<TKey> Keys => throw new NotImplementedException();
