@@ -10,6 +10,11 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>
     private Dictionary<TKey, TValue> _dictionary;
     private ReaderWriterLockSlim lockSlim = new ReaderWriterLockSlim();
 
+    public Dictionary()
+    {
+        this._dictionary = new Dictionary<TKey, TValue>();
+    }
+
     public TValue this[TKey key] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
     public ICollection<TKey> Keys => throw new NotImplementedException();
