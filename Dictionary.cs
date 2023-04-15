@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Diagnostics.CodeAnalysis;
 
-namespace DictionaryCore;
+namespace DataStructures.Collections.Dictionary;
 
 public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>
 {
