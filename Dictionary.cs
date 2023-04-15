@@ -5,6 +5,11 @@ using System;
 
 namespace DataStructures.Collections.Dictionary;
 
+/// <summary>
+/// Represents a thread-safe dictionary that allows concurrent access from multiple threads.
+/// </summary>
+/// <typeparam name="TKey">The type of keys in the dictionary.</typeparam>
+/// <typeparam name="TValue">The type of values in the dictionary.</typeparam>
 public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>
 {
     private Dictionary<TKey, TValue> _dictionary;
