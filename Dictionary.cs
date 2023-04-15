@@ -1,6 +1,6 @@
 ﻿namespace DictionaryCore;
 
-public class Dictionary<TKey, TValue>
+public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>
 {
 
 }
